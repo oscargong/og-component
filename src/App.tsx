@@ -1,12 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Button, { ButtonSize, ButtonType } from "./components/Button/button";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Button>hello</Button>
+        <Button btnType={ButtonType.Link} href="httpsL://www.google.com">
+          Google
+        </Button>
+
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
