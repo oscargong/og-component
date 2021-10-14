@@ -1,5 +1,11 @@
 // config
 @import "variables";
 
-// layout
+// Normalize
 @import "reboot";
+
+// mixin 
+@import "mixin";
+
+// Button styles
+@import "../components/Button/styles";
